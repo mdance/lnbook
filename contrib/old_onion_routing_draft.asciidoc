@@ -4,7 +4,7 @@
 At a high level, each node in the route is only _explicitly_ told: how to validate the incoming HTLC packet (remember all details need to be correct for a payment to flow!), who the next hop in the route is, and how to modify the incoming HTLC packet into a valid outgoing HTLC packet to forward to the next node.
 Combined with the fact that intermediate forwarding nodes aren't explicitly given the sender and receiver of a payment, nodes are given the _least_ amount of information they need to successfully forward a payment.
 In addition to these privacy enhancing attributes, intermediate nodes aren't able to arbitrarily modify an HTLC packet, as all information is encrypted and cryptically authenticated with integrity checks carried out at each hop to ensure contents haven't been modified.
-Readers familiar with onion routing may have realized that we'll be using some clever cryptographic technique application to achieve all thees traits.
+Readers familiar with onion routing may have realized that we'll be using some clever cryptographic technique application to achieve all these traits.
 We call this series of clever application of cryptographic techniques: sourced based onion routing!
 
 
