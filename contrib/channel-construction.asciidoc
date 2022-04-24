@@ -318,7 +318,7 @@ Bob on the other side will be able to receive 99k satoshi along that channel.
 This means that initially Alice will not be able to receive Bitcoins on this channel and that Bob initially will not be able to send Bitcoin along that channel.
 
 
-== Other payment channel constuctions
+== Other payment channel constructions
 
 Other constructions of payment channels are known and being discussed by the developers.
 Historically speaking these are the Duplex Micropayment channels introduced by Christian Decker during his time as a PhD student at ETH Zurich and the eltoo channels which where also introduced by Christian Decker.
